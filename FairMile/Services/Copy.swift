@@ -12,7 +12,7 @@ enum Copy {
     static let pinDoesNotChangeMiles = "The pin marks the place. Miles stay as they are until you change them."
     static let pathMiles = "Miles follow the driven path, not a straight line between the pins."
     static let keepOpen = "Keep FairMile open. This version does not record in the background."
-    static let privacyPolicyURL = URL(string: "https://leawee.github.io/fairmile/")!
+    static let privacyPolicyURL = URL(string: "https://leawee.github.io/FairMile/")!
 }
 
 enum Prefs {

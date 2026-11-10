@@ -27,7 +27,7 @@
 
 ## 定位和隐私
 
-只用 When In Use。Info.plist 不包含 `UIBackgroundModes`。不要把行程、轨迹或收据发到自建服务器。隐私政策的公开页是 `https://leawee.github.io/fairmile/`，源文件是 `docs/index.html`。
+只用 When In Use。Info.plist 不包含 `UIBackgroundModes`。不要把行程、轨迹或收据发到自建服务器。隐私政策的公开页是 `https://leawee.github.io/FairMile/`，源文件是 `docs/index.html`。
 
 ## 导出和付费
 

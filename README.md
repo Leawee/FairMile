@@ -8,6 +8,6 @@
 make test
 ```
 
-隐私政策在 <https://leawee.github.io/fairmile/>，页面源文件是 `docs/index.html`。
+隐私政策在 <https://leawee.github.io/FairMile/>，页面源文件是 `docs/index.html`。
 
 后续改代码时先读 `AGENTS.md`。
