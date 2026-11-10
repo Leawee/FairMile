@@ -1,0 +1,17 @@
+---
+description: FairMile 产品不变量。改功能、文案、定位、税率或导出时使用。
+alwaysApply: true
+---
+
+# FairMile
+
+界面英文。iOS 17+，SwiftUI + SwiftData。这是可核对的里程账本，不是报税软件。
+
+- 里程用过滤后的行驶路径。缺口不计入，也不用起终点直线距离顶上。
+- 税率只从 `Rates.json` 和用户添加的税率行读取。视图里不写死美分。
+- 定位只用 When In Use。不要加后台定位，不要写 automatically tracks。
+- 免责、定位和相机文案用 `Copy.swift` 里的原句。
+- 免费每月 15 趟；完整自然年 PDF/CSV 属于 Plus。
+- 数据默认在本机。不要把行程、轨迹或收据上传到自建服务器。
+
+改编辑读 `Documentation/EDITING.md`。改定稿、权限、税率或导出读 `Documentation/COMPLIANCE.md`。`make test` 通过才算做完。

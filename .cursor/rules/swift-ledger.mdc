@@ -1,0 +1,13 @@
+---
+description: 改 Swift 账本逻辑时保持里程、税率和编辑痕迹可测。
+globs: "**/*.swift"
+alwaysApply: false
+---
+
+# 账本代码
+
+- 金额和里程用整数：英里千分之一、金额美分、税率用「美分的十分之一」（725 = 72.5¢）。
+- 估算走 `LedgerMath` / `RateBook`。个人行程金额为 0，没有税率时金额保持空，不要填一个猜测值。
+- 跨日或跨税率的行程以开始日的本地日期选税率。
+- `isEdited` 表示当前英里或起终点已经偏离原始记录，或行程来自切分/合并。修改历史写进 `revisions`。
+- 新的里程规则用 `FairMileTests/LedgerTests.swift` 里的纯函数测试锁住，再改 UI。

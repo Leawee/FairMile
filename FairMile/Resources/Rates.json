@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "reviewed": "2026-11-10",
+  "source": "https://www.irs.gov/tax-professionals/standard-mileage-rates",
+  "periods": [
+    {
+      "category": "business",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "cents": "70",
+      "notice": "IR-2024-312"
+    },
+    {
+      "category": "charity",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "cents": "14",
+      "notice": "IR-2024-312"
+    },
+    {
+      "category": "medical",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "cents": "21",
+      "notice": "IR-2024-312"
+    },
+    {
+      "category": "business",
+      "start": "2026-01-01",
+      "end": "2026-06-30",
+      "cents": "72.5",
+      "notice": "IR-2025-128"
+    },
+    {
+      "category": "charity",
+      "start": "2026-01-01",
+      "end": "2026-06-30",
+      "cents": "14",
+      "notice": "IR-2025-128"
+    },
+    {
+      "category": "medical",
+      "start": "2026-01-01",
+      "end": "2026-06-30",
+      "cents": "20.5",
+      "notice": "IR-2025-128"
+    },
+    {
+      "category": "business",
+      "start": "2026-07-01",
+      "end": "2026-12-31",
+      "cents": "76",
+      "notice": "IR-2026-29"
+    },
+    {
+      "category": "charity",
+      "start": "2026-07-01",
+      "end": "2026-12-31",
+      "cents": "14",
+      "notice": "IR-2026-29"
+    },
+    {
+      "category": "medical",
+      "start": "2026-07-01",
+      "end": "2026-12-31",
+      "cents": "23.5",
+      "notice": "IR-2026-29"
+    }
+  ]
+}
