@@ -83,6 +83,17 @@ struct HomeView: View {
                     app.showRecorder = true
                 }
             }
+            #if DEBUG
+            .task {
+                for _ in 0..<30 {
+                    if let id = app.screenshotTripID {
+                        editingID = id
+                        return
+                    }
+                    try? await Task.sleep(for: .milliseconds(100))
+                }
+            }
+            #endif
         }
     }
 

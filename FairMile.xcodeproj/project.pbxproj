@@ -13,6 +13,7 @@
 		175F6900BDE6C32349E67118 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BB5CF2A24F5E203346B5FE /* RecordView.swift */; };
 		2279F4A2223B0DB8EBD76C38 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4069481056D466595D8A7 /* RootView.swift */; };
 		26AEC68EAD5797B88ECE0E2B /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166664F3936515B38B57C9CE /* Format.swift */; };
+		311B5893D9C997C6FB44C0EF /* ReviewWalkthroughUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D062F0E50749AA82CF64CF5 /* ReviewWalkthroughUITests.swift */; };
 		3458494F66B09A5B8A2F8AFB /* Exporters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43BAE83722658D56C1AD0D9 /* Exporters.swift */; };
 		45ED5D848C8CD35E73C8AA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E818965A08EF70F2A923B7FD /* Assets.xcassets */; };
 		4A4957CA1082708C4427A902 /* TripDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEE989126CE900039551877 /* TripDraft.swift */; };
@@ -33,6 +34,7 @@
 		CF3F4483B7D6270B9AE9795D /* TrackMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2DA403F2F3F3B1E546536F /* TrackMath.swift */; };
 		D26BE7809D685328653CCB0E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 11D618BC8DAACF66D36E0CC2 /* PrivacyInfo.xcprivacy */; };
 		D3F1071E04E0DCB695E2C3DC /* ExpenseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754CD10ECA252405401A9EB4 /* ExpenseSheet.swift */; };
+		DB2325E6D17806C872E1F8AA /* ScreenshotSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88729F9F59A48AA2A6831E9 /* ScreenshotSample.swift */; };
 		DDA1C2D06326ADF4CFF04871 /* FairMileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7FDEF6EEED3053B7954B21 /* FairMileApp.swift */; };
 		DDA99148A223DAB579763E2D /* TripEdits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30957F802B65E3FEF18B36B /* TripEdits.swift */; };
 		E36DBA282A879424C5B2E7B7 /* RateBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472C41CF9241C12CECEC70D6 /* RateBook.swift */; };
@@ -42,6 +44,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C0F8A8423E4D0AC397A2322D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 532B71588480F05CA52C11AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A03D32ABD24C686E468D4AE7;
+			remoteInfo = FairMile;
+		};
 		ECFAB375A07031710C0F356B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 532B71588480F05CA52C11AC /* Project object */;
@@ -76,9 +85,11 @@
 		85BB5CF2A24F5E203346B5FE /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		8A7FDEF6EEED3053B7954B21 /* FairMileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairMileApp.swift; sourceTree = "<group>"; };
 		94CD7D1AC651260B24A6ABC3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9D062F0E50749AA82CF64CF5 /* ReviewWalkthroughUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewWalkthroughUITests.swift; sourceTree = "<group>"; };
 		A06A962CF7BCD1FC04A988CE /* TripLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripLibrary.swift; sourceTree = "<group>"; };
 		B18F9F4D8398BE1A216E1156 /* LedgerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerTests.swift; sourceTree = "<group>"; };
 		B56354DBDC84E07707B12F27 /* SplitMergeSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitMergeSheets.swift; sourceTree = "<group>"; };
+		B88729F9F59A48AA2A6831E9 /* ScreenshotSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotSample.swift; sourceTree = "<group>"; };
 		C30957F802B65E3FEF18B36B /* TripEdits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripEdits.swift; sourceTree = "<group>"; };
 		D31EB50E4914F3DBEC02D2B2 /* LedgerMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerMath.swift; sourceTree = "<group>"; };
 		E1376F4286CB83A5C9C31BDE /* FairMile.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FairMile.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +99,7 @@
 		E818965A08EF70F2A923B7FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBFCA3D59613F5FC16DE862E /* Rates.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Rates.json; sourceTree = "<group>"; };
 		FD104D961DB713344E43720C /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		FDEC88044530F75FDE5DF0C1 /* FairMileUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FairMileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -105,6 +117,7 @@
 			children = (
 				85FEBC03B300A846FE9E7DE8 /* FairMile */,
 				85AA60B4DD7CF8ADBA06ACBC /* FairMileTests */,
+				7374B3984255FF35DC68AC9D /* FairMileUITests */,
 				4E10C0C9D121CC4208B2DC72 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,6 +139,7 @@
 			children = (
 				E1376F4286CB83A5C9C31BDE /* FairMile.app */,
 				E4643EB2F8734BF18F68B809 /* FairMileTests.xctest */,
+				FDEC88044530F75FDE5DF0C1 /* FairMileUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,12 +180,21 @@
 				D31EB50E4914F3DBEC02D2B2 /* LedgerMath.swift */,
 				FD104D961DB713344E43720C /* PurchaseManager.swift */,
 				472C41CF9241C12CECEC70D6 /* RateBook.swift */,
+				B88729F9F59A48AA2A6831E9 /* ScreenshotSample.swift */,
 				4E2DA403F2F3F3B1E546536F /* TrackMath.swift */,
 				C30957F802B65E3FEF18B36B /* TripEdits.swift */,
 				A06A962CF7BCD1FC04A988CE /* TripLibrary.swift */,
 				684BAA8C002E5B5C49790547 /* TripRecorder.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		7374B3984255FF35DC68AC9D /* FairMileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D062F0E50749AA82CF64CF5 /* ReviewWalkthroughUITests.swift */,
+			);
+			path = FairMileUITests;
 			sourceTree = "<group>";
 		};
 		85AA60B4DD7CF8ADBA06ACBC /* FairMileTests */ = {
@@ -208,6 +231,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		18F07D67B6BD7297CD38150E /* FairMileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34949864A4D4B4BCBBC0F865 /* Build configuration list for PBXNativeTarget "FairMileUITests" */;
+			buildPhases = (
+				4ADAD62EF8B9C95AFC0F5CBC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D330FEF8D6F89B2A52A78381 /* PBXTargetDependency */,
+			);
+			name = FairMileUITests;
+			packageProductDependencies = (
+			);
+			productName = FairMileUITests;
+			productReference = FDEC88044530F75FDE5DF0C1 /* FairMileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		9C8530EC570274DB0DE94DB4 /* FairMileTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 976C13242D97BFA971D18E8A /* Build configuration list for PBXNativeTarget "FairMileTests" */;
@@ -253,12 +294,17 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					18F07D67B6BD7297CD38150E = {
+						DevelopmentTeam = M22MHQ5EUC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A03D32ABD24C686E468D4AE7;
+					};
 					9C8530EC570274DB0DE94DB4 = {
-						DevelopmentTeam = "";
+						DevelopmentTeam = M22MHQ5EUC;
 						ProvisioningStyle = Automatic;
 					};
 					A03D32ABD24C686E468D4AE7 = {
-						DevelopmentTeam = "";
+						DevelopmentTeam = M22MHQ5EUC;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -279,6 +325,7 @@
 			targets = (
 				A03D32ABD24C686E468D4AE7 /* FairMile */,
 				9C8530EC570274DB0DE94DB4 /* FairMileTests */,
+				18F07D67B6BD7297CD38150E /* FairMileUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -305,6 +352,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4ADAD62EF8B9C95AFC0F5CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311B5893D9C997C6FB44C0EF /* ReviewWalkthroughUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9DCCBD7A5632DBDD532A6521 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,6 +383,7 @@
 				175F6900BDE6C32349E67118 /* RecordView.swift in Sources */,
 				2279F4A2223B0DB8EBD76C38 /* RootView.swift in Sources */,
 				69370BCE8A5DD8899F2D0D1B /* RouteMap.swift in Sources */,
+				DB2325E6D17806C872E1F8AA /* ScreenshotSample.swift in Sources */,
 				E4E93FDFCBA91CE52AC452ED /* SettingsView.swift in Sources */,
 				760498FA659D0EF0DB8BA48D /* SplitMergeSheets.swift in Sources */,
 				CF3F4483B7D6270B9AE9795D /* TrackMath.swift in Sources */,
@@ -347,6 +403,11 @@
 			isa = PBXTargetDependency;
 			target = A03D32ABD24C686E468D4AE7 /* FairMile */;
 			targetProxy = ECFAB375A07031710C0F356B /* PBXContainerItemProxy */;
+		};
+		D330FEF8D6F89B2A52A78381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A03D32ABD24C686E468D4AE7 /* FairMile */;
+			targetProxy = C0F8A8423E4D0AC397A2322D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -388,7 +449,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = M22MHQ5EUC;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -442,8 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGNING_REQUIRED = NO;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
 				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -453,6 +513,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "FairMile uses the camera to photograph a receipt. The photo stays on this iPhone unless you turn on iCloud sync.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "FairMile uses your location while you record a trip to calculate mileage. Location is not used in the background in this version.";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,6 +525,42 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
+		};
+		942BBA0D7BCCD251F8670DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.fairmile.ios.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FairMile;
+			};
+			name = Release;
+		};
+		96CA089EFB3A17C0F9C4BB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.fairmile.ios.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FairMile;
+			};
+			name = Debug;
 		};
 		B7BE6A63C5C8172BB6E1A7B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -488,8 +585,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGNING_REQUIRED = NO;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
 				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -499,6 +595,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "FairMile uses the camera to photograph a receipt. The photo stays on this iPhone unless you turn on iCloud sync.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "FairMile uses your location while you record a trip to calculate mileage. Location is not used in the background in this version.";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -548,7 +645,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = M22MHQ5EUC;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -575,6 +672,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		34949864A4D4B4BCBBC0F865 /* Build configuration list for PBXNativeTarget "FairMileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CA089EFB3A17C0F9C4BB22 /* Debug */,
+				942BBA0D7BCCD251F8670DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		976C13242D97BFA971D18E8A /* Build configuration list for PBXNativeTarget "FairMileTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

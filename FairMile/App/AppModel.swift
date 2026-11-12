@@ -22,6 +22,9 @@ final class AppModel {
     var showPaywall = false
     var showRecorder = false
     var tab: AppTab = .log
+    #if DEBUG
+    var screenshotTripID: UUID?
+    #endif
 
     init(inMemory: Bool = false) {
         isPreview = inMemory

@@ -42,6 +42,9 @@ struct RootView: View {
             } catch {
                 assertionFailure("Rate table failed to load: \(error.localizedDescription)")
             }
+            #if DEBUG
+            ScreenshotSample.prepare(app: app, context: context)
+            #endif
             await app.purchases.start()
         }
         .onChange(of: scenePhase) { _, phase in

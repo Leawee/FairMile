@@ -11,7 +11,7 @@ settings:
   CURRENT_PROJECT_VERSION: "1"
   TARGETED_DEVICE_FAMILY: "1"
   CODE_SIGN_STYLE: Automatic
-  DEVELOPMENT_TEAM: ""
+  DEVELOPMENT_TEAM: M22MHQ5EUC
 targets:
   FairMile:
     type: application
@@ -33,12 +33,11 @@ targets:
       INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.finance
       INFOPLIST_KEY_UILaunchScreen_Generation: YES
       INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+      INFOPLIST_KEY_UIRequiresFullScreen: YES
       INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
       INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: "FairMile uses your location while you record a trip to calculate mileage. Location is not used in the background in this version."
       INFOPLIST_KEY_NSCameraUsageDescription: "FairMile uses the camera to photograph a receipt. The photo stays on this iPhone unless you turn on iCloud sync."
       ENABLE_PREVIEWS: YES
-      CODE_SIGNING_REQUIRED: NO
-      CODE_SIGN_IDENTITY: "-"
       ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
       ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
       ENABLE_TESTABILITY: YES
@@ -55,6 +54,17 @@ targets:
       PRODUCT_BUNDLE_IDENTIFIER: app.fairmile.ios.tests
       TEST_HOST: "$(BUILT_PRODUCTS_DIR)/FairMile.app/FairMile"
       BUNDLE_LOADER: "$(TEST_HOST)"
+  FairMileUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: FairMileUITests
+    dependencies:
+      - target: FairMile
+    settings:
+      GENERATE_INFOPLIST_FILE: YES
+      PRODUCT_BUNDLE_IDENTIFIER: app.fairmile.ios.uitests
 schemes:
   FairMile:
     build:
@@ -68,3 +78,16 @@ schemes:
       config: Debug
       targets:
         - FairMileTests
+  FairMileReview:
+    build:
+      targets:
+        FairMile: all
+        FairMileUITests: [test]
+    run:
+      config: Debug
+      storeKitConfiguration: FairMile/Resources/Products.storekit
+    test:
+      config: Debug
+      storeKitConfiguration: FairMile/Resources/Products.storekit
+      targets:
+        - FairMileUITests

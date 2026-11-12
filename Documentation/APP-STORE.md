@@ -48,6 +48,9 @@ FairMile Plus is $4.99 a month, $39.99 a year with a 7-day free trial, or $79.99
 
 Records are for you and your tax professional. This is not tax advice. FairMile is not affiliated with the IRS.
 
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://leawee.github.io/FairMile/
+
 ### Keywords
 
 IRS mileage,1099,Schedule C,mileage log,reimbursement,tax log

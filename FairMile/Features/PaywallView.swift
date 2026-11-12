@@ -64,9 +64,17 @@ struct PaywallView: View {
                         Text("Monthly $4.99 · Lifetime $79.99")
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
+                        #if DEBUG
+                        if !ScreenshotSample.isRequested {
+                            Text(app.purchases.loadError ?? "Prices load from the App Store.")
+                                .font(.footnote)
+                                .foregroundStyle(.secondary)
+                        }
+                        #else
                         Text(app.purchases.loadError ?? "Prices load from the App Store.")
                             .font(.footnote)
                             .foregroundStyle(.secondary)
+                        #endif
                     }
                     Button("Restore purchases") {
                         Task { await app.purchases.restore() }
